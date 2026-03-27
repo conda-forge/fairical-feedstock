@@ -1,7 +1,7 @@
 context:
   name: fairical
-  version: "2.0.2"
-  python_min: 3.11
+  version: "2.0.3"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fairical-${{ version }}.tar.gz
-  sha256: 078a2d310da1b8861e74c07bae68270d113f65af8ddbb6681337fd79dbc34794
+  sha256: f5d200065bb588374e01249bedc3aee8777601fdca0e6123aa37042b0ba9cd63
 
 build:
   number: 0
