@@ -1,7 +1,7 @@
 context:
   name: fairical
   version: "2.0.3"
-  python_min: 3.11
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
